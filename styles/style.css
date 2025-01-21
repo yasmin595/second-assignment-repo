@@ -1,0 +1,92 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+ 
+
+
+
+.quicksand-font-family {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font: weight 400px;
+  font-style:normal;
+}
+.navbar{
+height: 62px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 186px;
+padding: 0px;
+margin: 10px 0px;
+}
+.nav1{
+    display: flex;
+}
+.nav-logo{
+width: 62px;
+height: 62px;
+left: 1px;
+right: 139px;
+top: 0;
+bottom: 0;
+}
+.nav-title{
+    font-size: 20px;
+}
+.ul-container1{
+    list-style: none;
+width: 387px;
+height: 30px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+gap: 0px;
+padding: 0px;
+}
+.li-1, .li-2, .li-3, .li-4{
+width: 58px;
+height: 30px;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+margin: 0px 32px;
+color: rgb(254, 163, 1);
+font-size: 12px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+}
+.li-2{
+ color:  rgb(1, 172, 253);
+}
+.li-3{
+    color: rgb(5, 212, 223);
+}
+.li-4{
+    color: rgb(93, 88, 239);
+}
+.btn-primary{
+width: 120px;
+height: 35px;
+justify-content: center;
+text-align: center;
+align-items: center;
+gap: 10;
+padding: 10px;
+border-radius: 8px;
+padding:0px 5px;
+margin: 0 7px;
+font-size: 12px;
+font-weight: 400;
+line-height: 30px;
+color: rgb(255, 255, 255);
+background-color: rgb(254, 163, 1);
+border-style: none;
+}
+/* banner style */
+.banner-container{
+    display: flex;
+}
