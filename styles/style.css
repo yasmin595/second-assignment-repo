@@ -220,6 +220,92 @@ margin-left: 50%;
 .btn-icon2{
     margin-left:0px ;
 }
+.stories-container{
+    width: 1200px;
+}
+.title1{ 
+font-size: 1.3rem;
+font-weight: 700;
+line-height: 38.35px;
+text-align: left;
+margin-left: 38px;
+}
+.description1{
+    text-align: left;
+    margin-left: 38px;
+    margin-top: 25px;
+    width: 200px;
+}
+.btn-story1{
+    position: absolute;
+    border-radius: 47.93px;
+background: rgb(60, 216, 232);
+width: 174.51px;
+height: 47.93px;
+margin-left:38px;
+margin-top:-22px;
+
+}
+.story-1{
+    margin-left: 30px;
+width: 540px;
+margin-bottom: 0px;
+border-radius: 16px;
+}
+.story1{
+width: 540.27px;
+height: 630.52px;
+border-radius: 16px;
+background: rgb(255, 255, 255);
+}
+.story-2, .story-3, .story-4, .story-5{
+border-radius: 16px;
+background: rgb(255, 255, 255);
+}
+.story-description{
+width: 198.04px;
+height: 47.93px;
+left: 0;
+top: 4.79px;
+display: flex;
+align-items: center;
+font-size: .8rem;
+font-weight: 700;
+line-height: 28.76px;
+}
+.btn-story2, .btn-story3, .btn-story4, .btn-story5
+{
+    position: absolute;
+width: 174.51px;
+height: 38.35px;
+margin-top: -25px;
+border-radius: 47.93px;
+background: rgb(149, 178, 38);
+font-weight: 500;
+font-size: .6rem;
+color: white;
+border-style: none;
+
+}
+.btn-story3{
+    background-color: rgb(93, 88, 240);
+}
+.Stories-container{
+    display: flex;
+    justify-content: space-around;
+}
+.four-story{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 540.27px;
+height: 630.52px;
+
+}
+.view-all{
+    background-color: black;
+    margin-left: 40%;
+}
 @media screen and (max-width: 576px) {
    .nav-title,
    .ul-container1,
@@ -283,5 +369,39 @@ justify-content:start;
 }
 .btn-icon{
     display: none;
+}
+.story1{
+    display: none;
+}
+.four-story{
+    margin-right: 80%;
+    gap: 1px;
+}
+.child{
+width: 173.09px;
+height: 179.59px;
+border-radius: 9.53px;
+background: rgb(255, 255, 255);
+}
+.story-2, .story-3, .story-4, .story-5{
+width: 160.27px;
+height: 105.39px;
+}
+.btn-story2, .btn-story3, .btn-story4, .btn-story5{
+width: 103.91px;
+height: 30px;
+}
+.story-description{
+width: 80.px;
+height: 28.54px;
+top: 2.85px;
+display: flex;
+align-items: center;
+color: rgb(0, 0, 0);
+font-size: .4rem;
+font-weight: 700;
+letter-spacing: 0%;
+text-align: left;
+padding-bottom: 2px;
 }
 }
