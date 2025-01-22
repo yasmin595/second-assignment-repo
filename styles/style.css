@@ -220,6 +220,9 @@ margin-left: 50%;
 .btn-icon2{
     margin-left:0px ;
 }
+.Stories{
+    background: url(../images/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
 .stories-container{
     width: 1200px;
 }
@@ -253,7 +256,7 @@ margin-bottom: 0px;
 border-radius: 16px;
 }
 .story1{
-width: 540.27px;
+width: 500.27px;
 height: 630.52px;
 border-radius: 16px;
 background: rgb(255, 255, 255);
@@ -304,8 +307,56 @@ height: 630.52px;
 }
 .view-all{
     background-color: black;
-    margin-left: 40%;
+    margin-left: 32%;
+    margin-bottom: 40px;
+
 }
+footer{
+    margin-top: 50px;
+    width: 1200px;
+    height: 400px;
+    background-color: rgb(1, 172, 253);
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    gap: 50px;
+}
+.div1{
+    display: flex;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+}
+.footer-description{
+    width:400px;
+    font-weight: 500;
+    font-size: .5rem;
+    color: white;
+}
+#about-school{
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+
+}
+.keep-title{
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+}
+.li{
+    text-decoration: none;
+    list-style: none;
+    font-weight: 500;
+    font-size: .7rem;
+    color:white;
+}
+
 @media screen and (max-width: 576px) {
    .nav-title,
    .ul-container1,
@@ -384,8 +435,9 @@ border-radius: 9.53px;
 background: rgb(255, 255, 255);
 }
 .story-2, .story-3, .story-4, .story-5{
-width: 160.27px;
+width: 120.27px;
 height: 105.39px;
+gap:2px;
 }
 .btn-story2, .btn-story3, .btn-story4, .btn-story5{
 width: 103.91px;
@@ -403,5 +455,12 @@ font-weight: 700;
 letter-spacing: 0%;
 text-align: left;
 padding-bottom: 2px;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+footer{
+    height: fit-content;
 }
 }
